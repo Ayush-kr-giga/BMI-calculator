@@ -21,6 +21,31 @@ h2 {
     margin-bottom: 20px;
 }
 
+.feet-inches {
+    display: none; 
+}
+
+/* .relative{
+    position: relative;
+    width: 85%;
+} */
+
+/* #height {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 9%;
+    margin-top: 5%;
+} */
+/* 
+.height-group {
+    display: flex;
+    justify-content: space-between;
+}
+ */
+
+
 select{
     padding: 12px;
     margin: 10px 10px;
@@ -32,12 +57,27 @@ select{
     transition: all 0.3s ease;
 }
 
+.feet-inches{
+    /* position: absolute; */
+    padding: 12px;
+    margin: 10px 10px;
+    width: 40%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    /* transform: scale(0); */
+    z-index: 20;
+}
+
 
 
 input {
+    /* position: relative; */
     padding: 12px;
     margin: 10px 0;
-    width: 100%;
+    width: 85%;
     border: 1px solid #ddd;
     border-radius: 8px;
     font-size: 16px;

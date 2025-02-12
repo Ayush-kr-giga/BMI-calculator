@@ -1,4 +1,3 @@
-# 🏋️ BMI Calculator  
 
 A simple and responsive **BMI (Body Mass Index) Calculator** that helps users determine their BMI based on weight and height.  
 

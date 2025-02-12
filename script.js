@@ -25,14 +25,14 @@ heightSelect.addEventListener("change", function () {
     }
 });
 
-weightSelect.addEventListener("change", function () {
-    condition2 = weightSelect.value === "lb";
-    if (condition1){
-        let x= document.querySelector("#height")
-        x.style.transform='scale(0)';
-        console.log("positive 1")
-    }
-});
+// weightSelect.addEventListener("change", function () {
+//     condition2 = weightSelect.value === "lb";
+//     if (condition2){
+//         let x= document.querySelector("#height")
+//         x.style.transform='scale(0)';
+//         console.log("positive 1")
+//     }
+// });
 
 
 
